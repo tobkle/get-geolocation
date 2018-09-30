@@ -1,5 +1,5 @@
 {
-    "name": "@tobkle/get-geolocation",
+    "name": "get-geolocation",
     "version": "1.0.0",
     "description": "Get Geolocation with Address String from Google Maps",
     "main": "lib/index.js",

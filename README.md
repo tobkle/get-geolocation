@@ -3,6 +3,10 @@
 Get Geolocation with Address String from Google Maps
 
 You need a Google API key with access to the Google Maps Geolocation API.
+## Installation
+```bash
+npm install get-geolocation
+```
 
 ## Example
 ```js
