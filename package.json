@@ -4,7 +4,7 @@
     "description": "Get Geolocation with Address String from Google Maps",
     "main": "lib/index.js",
     "scripts": {
-        "build": "babel-node src --presets es2015,stage-0 --out-dir lib"
+        "build": "babel src --out-dir lib --presets es2015,stage-0"
     },
     "repository": {
         "type": "git",
