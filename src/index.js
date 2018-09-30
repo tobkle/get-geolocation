@@ -49,11 +49,6 @@ export default class Geolocation {
                 const response = await axios.get(url)
                 const data = response.data
                 if (data.results && data.results.length > 0) {
-                    console.log(
-                        `City: ${data.results[0].formatted_address} -`,
-                        `Latitude: ${data.results[0].geometry.location.lat} -`,
-                        `Longitude: ${data.results[0].geometry.location.lng}`
-                    )
                     target[this._targetField] = data.results[0].geometry.location
                     target[this._targetField].country = this._getCountry(data.results[0])
                     cb(target)
