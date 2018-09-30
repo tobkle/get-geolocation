@@ -1,11 +1,11 @@
 {
     "name": "get-geolocation",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Get Geolocation with Address String from Google Maps",
     "main": "lib/index.js",
     "scripts": {
         "build": "babel src --out-dir lib --presets es2015,stage-0",
-        "publish": "npm run build && git add . && git commit -m '%s' && git push origin master --tags && npm version patch -m 'Version %s' && npm publish"
+        "publish": "git add . && git commit -m '%s' && git push origin master --tags && npm version patch -m 'Version %s' && npm publish"
     },
     "repository": {
         "type": "git",
