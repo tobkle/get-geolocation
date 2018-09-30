@@ -1,6 +1,6 @@
 {
     "name": "get-geolocation",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Get Geolocation with Address String from Google Maps",
     "main": "lib/index.js",
     "scripts": {
